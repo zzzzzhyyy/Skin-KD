@@ -45,14 +45,12 @@ pip install -r requirements.txt
 ## Training
 
 Standard training:  
-python experiment/raug/raug/train.py  
+python experiment/isic/isic.py
 
 Knowledge distillation training:  
-python experiment/raug/raug/train_kd.py  
+python experiment/isic/our_MultiHeadWeightedLoss.py
 
 ## Evaluation
-
-python experiment/raug/raug/eval.py  
 
 Metrics:
 - Accuracy  
@@ -64,11 +62,9 @@ Metrics:
 The proposed framework adopts a dual-head teacher-student architecture. The primary head produces standard discriminative predictions, while the auxiliary head with entropy regularization generates smoother and more informative soft labels. The student model learns from both heads via knowledge distillation, enabling simultaneous learning of discriminative features and inter-class semantic relationships. The overall objective is to maximize sample relational knowledge and improve structured representation learning in skin cancer diagnosis.
 
 ## Requirements
-- Python 3.7+  
+- Python 
 - PyTorch  
 - NumPy  
-- scikit-learn  
-- OpenCV  
 
 pip install -r requirements.txt  
 
