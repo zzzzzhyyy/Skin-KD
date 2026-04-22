@@ -68,8 +68,4 @@ The proposed framework adopts a dual-head teacher-student architecture. The prim
 
 pip install -r requirements.txt  
 
-## Disclaimer
-This project is intended for research and academic purposes only and is not designed for clinical diagnosis or medical decision-making.
 
-## Contact
-GitHub: https://github.com/zzzzzhyyy
