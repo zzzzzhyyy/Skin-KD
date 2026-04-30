@@ -68,4 +68,8 @@ The proposed framework adopts a dual-head teacher-student architecture. The prim
 
 pip install -r requirements.txt  
 
+## Note
+
+This repository contains the implementation of the paper submitted to *The Visual Computer*.
+
 
